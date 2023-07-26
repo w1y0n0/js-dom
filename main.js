@@ -137,3 +137,9 @@ console.log(dataList.parentElement);
 const terdekat = dataList.closest('div');
 // const terdekat = dataList.closest('.container');
 console.log(terdekat);
+
+/**
+ * Traverse dom elementSibling
+ */
+console.log(dt_h1.previousElementSibling.textContent);
+console.log(dt_h1.nextElementSibling.textContent);
