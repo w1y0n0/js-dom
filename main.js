@@ -50,3 +50,14 @@ console.log(data_p[1].textContent);
 const data_li = document.querySelectorAll('.list-group-item');
 console.log(data_li);
 console.log(data_li[4].textContent);
+
+/**
+ * Styling Element
+ */
+const data_p_desc = document.querySelectorAll('p');
+console.log(data_p_desc[0].textContent);
+data_p_desc[0].style.background = "#fff";
+data_p_desc[0].style.border = "2px solid grey";
+data_p_desc[0].style.borderTop = "2px solid red";
+data_p_desc[0].style.borderBottom = "2px solid cyan";
+data_p_desc[0].style.padding = "10px";
