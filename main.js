@@ -130,3 +130,10 @@ console.log(li[0].textContent);
 const dataList = document.querySelector('.list-group-item');
 console.log(dataList.textContent);
 console.log(dataList.parentElement);
+
+/**
+ * Traverse dom closest (cari nenek moyang nya hirarki parent ke atas)
+ */
+const terdekat = dataList.closest('div');
+// const terdekat = dataList.closest('.container');
+console.log(terdekat);
