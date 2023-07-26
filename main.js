@@ -115,3 +115,11 @@ data_penulis.after(data_link);
 // dt_h1.textContent = 'Hello, Semua!';
 // dt_h1.textContent = 'Hello, Semua! ' + dt_h1.textContent;
 dt_h1.textContent = 'Hello, Semua! ' + dt_h1.innerText + '. Sangat Menyenangkan.';
+
+/**
+ * Traverse dom children
+ */
+// console.log(dt_ul.innerHTML);
+// console.log(data_li);
+const li = dt_ul.children;
+console.log(li[0].textContent);
