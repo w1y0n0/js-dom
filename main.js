@@ -23,3 +23,10 @@ console.log(tag_small[1].innerText);
  */
 const id_desc = document.getElementById('deskripsi');
 console.log(id_desc.textContent);
+
+/**
+ * Akses Data by class
+ */
+const class_tgl = document.getElementsByClassName('tanggal');
+console.log(class_tgl);
+console.log(class_tgl[0].textContent);
