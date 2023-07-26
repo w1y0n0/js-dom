@@ -17,3 +17,9 @@ const tag_small = document.getElementsByTagName('small');
 console.log(tag_small);
 console.log(tag_small[0].innerText);
 console.log(tag_small[1].innerText);
+
+/**
+ * Akses Data by id
+ */
+const id_desc = document.getElementById('deskripsi');
+console.log(id_desc.textContent);
