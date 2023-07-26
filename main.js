@@ -39,3 +39,14 @@ const data_desc = document.querySelector('#deskripsi'); // by id
 console.log(data_desc.textContent);
 const data_tgl = document.querySelector('.tanggal'); // by className
 console.log(data_tgl.textContent);
+
+/**
+ * Akses Element by querySelectorAll
+ */
+const data_p = document.querySelectorAll('p');
+console.log(data_p);
+console.log(data_p[0].textContent);
+console.log(data_p[1].textContent);
+const data_li = document.querySelectorAll('.list-group-item');
+console.log(data_li);
+console.log(data_li[4].textContent);
