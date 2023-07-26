@@ -123,3 +123,10 @@ dt_h1.textContent = 'Hello, Semua! ' + dt_h1.innerText + '. Sangat Menyenangkan.
 // console.log(data_li);
 const li = dt_ul.children;
 console.log(li[0].textContent);
+
+/**
+ * Traverse dom parent
+ */
+const dataList = document.querySelector('.list-group-item');
+console.log(dataList.textContent);
+console.log(dataList.parentElement);
