@@ -61,3 +61,19 @@ data_p_desc[0].style.border = "2px solid grey";
 data_p_desc[0].style.borderTop = "2px solid red";
 data_p_desc[0].style.borderBottom = "2px solid cyan";
 data_p_desc[0].style.padding = "10px";
+
+/**
+ * Setting class
+ */
+const dt_small = document.querySelector('small');
+dt_small.style.padding = "5px";
+dt_small.style.fontFamily = "Courier New";
+dt_small.classList.add('bg-warning');
+console.log(dt_small.className);
+
+const dt_ul = document.querySelector('ul');
+// dt_ul.classList.remove('list-group');
+console.log(dt_ul.className);
+
+const dt_h1 = document.querySelector('h1');
+dt_h1.classList.toggle('bg-danger'); //add jk blm ada, remove jk sdh ada
