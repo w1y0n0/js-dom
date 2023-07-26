@@ -77,3 +77,13 @@ console.log(dt_ul.className);
 
 const dt_h1 = document.querySelector('h1');
 dt_h1.classList.toggle('bg-danger'); //add jk blm ada, remove jk sdh ada
+
+/**
+ * Modif Element (Tambah dan Hapus)
+ */
+const data_penulis = document.createElement('div');
+data_penulis.textContent = 'Penulis: Abdullah';
+// dt_h1.before(data_penulis);
+dt_h1.after(data_penulis); //tambah <div></div> setelah <h1></h1>
+
+data_p[0].remove(); //hapus tag <p></p> index ke-0
