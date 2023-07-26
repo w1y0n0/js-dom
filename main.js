@@ -87,3 +87,24 @@ data_penulis.textContent = 'Penulis: Abdullah';
 dt_h1.after(data_penulis); //tambah <div></div> setelah <h1></h1>
 
 data_p[0].remove(); //hapus tag <p></p> index ke-0
+
+/**
+ * Modif atribut dari element
+ */
+// dt_small.setAttribute('style', 'color:red;border:1px solid #000');
+dt_small.setAttribute('style', 'color:red');
+// console.log(dt_small.className); //find attr class
+// console.log(dt_small.getAttribute('id')); //find attr id
+console.log(dt_small.getAttribute('style')); //find attr id
+// <a href='https://labsi.biz.id' class='btn btn-sm btn-primary'>www.labsi.biz.id</a>
+const data_link = document.createElement('a');
+// data_link.href = 'https://labsi.biz.id';
+// data_link.classList.add('btn');
+// data_link.classList.add('btn-sm');
+// data_link.classList.add('btn-primary');
+// data_link.textContent = 'www.labsi.biz.id';
+data_link.setAttribute('href', 'https://labsi.biz.id');
+data_link.setAttribute('class', 'btn btn-sm btn-primary mb-2');
+data_link.textContent = 'www.labsi.biz.id';
+
+data_penulis.after(data_link);
