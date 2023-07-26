@@ -108,3 +108,10 @@ data_link.setAttribute('class', 'btn btn-sm btn-primary mb-2');
 data_link.textContent = 'www.labsi.biz.id';
 
 data_penulis.after(data_link);
+
+/**
+ * Modif Text
+ */
+// dt_h1.textContent = 'Hello, Semua!';
+// dt_h1.textContent = 'Hello, Semua! ' + dt_h1.textContent;
+dt_h1.textContent = 'Hello, Semua! ' + dt_h1.innerText + '. Sangat Menyenangkan.';
